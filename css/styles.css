@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.header__logo {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+}
+
+.header__logo-part-blue {
+    color: blue;
+}
+
+.header__nav {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+}
+
+.header__nav-list {
+    display: flex; /* Элементы списка будут расположены горизонтально */
+    gap: 40px; /* Расстояние между пунктами меню */
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Убираем маркеры списка */
+}
+
+.header__nav-item {
+    height: 24px;
+    width: auto;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    width: auto;
+}
+
+.header__nav-link:hover {
+    color: blue;
+}
+
+.header__contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.header__contact-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.header__contact-item {
+    display: flex;
+    align-items: center;
+}
+.header__contact-link{
+    color: black;
+}
+.header__contact-link:hover{
+    color: blue;
+}
+
+
+.main-content__intro {
+    background-color: navy;
+    display: flex;
+    flex-direction: column; /* Устанавливаем вертикальное направление */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    justify-content: center; /* Центрируем элементы по вертикали */
+    height: 600px; /* Высота контейнера */
+}
+
+.main-content__title {
+    display: flex;
+    margin-bottom: 10px; /* Отступ между текстом и кнопкой */
+    color: aliceblue;
+}
+
+.main-content__button {
+    display: flex;
+    justify-content: center; /* Центрирует текст внутри кнопки */
+    align-items: center; /* Вертикальное выравнивание текста */
+    width: 150px; /* Увеличьте ширину кнопки, если необходимо */
+    height: 40px; /* Увеличьте высоту кнопки, если необходимо */
+    white-space: nowrap; /* Запретить перенос текста на новую строку */
+}
+
+
